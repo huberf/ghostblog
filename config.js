@@ -26,7 +26,7 @@ config = {
 
   // Production (Heroku)
   production: {
-    url: process.env.HEROKU_URL,
+		url: 'http://huberfblog.herokuapp.com/',
     mail: {
       transport: 'SMTP',
       options: {
